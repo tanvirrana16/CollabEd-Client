@@ -6,8 +6,8 @@ Welcome to **CollabEd**, a web-based platform designed to streamline learning th
 
 ## 🔐 Admin Credentials
 
-- **Username:** `admin@collabed.com`
-- **Password:** `Admin123`
+- **Username:** `admin2@collabed.com`
+- **Password:** `Tr1234567890`
 
 > These credentials are for demo/admin access only.
 
@@ -15,7 +15,7 @@ Welcome to **CollabEd**, a web-based platform designed to streamline learning th
 
 ## 🔗 Live Website
 
-👉 [Visit CollabEd Live Site](https://collabed-d8ed1.web.app/)
+👉 [Visit CollabEd Live Site]([https://collabed-d8ed1.web.app/](https://collab-ed-679be.web.app/))
 
 ---
 
