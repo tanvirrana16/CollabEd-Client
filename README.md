@@ -15,7 +15,7 @@ Welcome to **CollabEd**, a web-based platform designed to streamline learning th
 
 ## 🔗 Live Website
 
-👉 [Visit CollabEd Live Site]((https://collab-ed-679be.web.app/))
+👉 [Visit CollabEd Live Site](https://collab-ed-679be.web.app/)
 
 ---
 
