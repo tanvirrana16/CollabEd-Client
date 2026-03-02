@@ -1,0 +1,193 @@
+ @import "tailwindcss";
+ /* @plugin "daisyui" {
+   themes: light;
+ } */
+
+
+/* @plugin "daisyui/theme" {
+  name: "CollabEdLight";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(93% 0 0);
+  --color-base-300: oklch(86% 0 0);
+  --color-base-content: oklch(35.519% 0.032 262.988);
+  --color-primary: oklch(76.662% 0.135 153.45);
+  --color-primary-content: oklch(33.387% 0.04 162.24);
+  --color-secondary: oklch(61.302% 0.202 261.294);
+  --color-secondary-content: oklch(100% 0 0);
+  --color-accent: oklch(72.772% 0.149 33.2);
+  --color-accent-content: oklch(0% 0 0);
+  --color-neutral: oklch(35.519% 0.032 262.988);
+  --color-neutral-content: oklch(98.462% 0.001 247.838);
+  --color-info: oklch(72.06% 0.191 231.6);
+  --color-info-content: oklch(0% 0 0);
+  --color-success: oklch(64.8% 0.15 160);
+  --color-success-content: oklch(0% 0 0);
+  --color-warning: oklch(84.71% 0.199 83.87);
+  --color-warning-content: oklch(0% 0 0);
+  --color-error: oklch(71.76% 0.221 22.18);
+  --color-error-content: oklch(0% 0 0);
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+} */
+
+
+
+@plugin "daisyui/theme" {
+  name: "CollabEdLight";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+
+  --color-base-100: oklch(100% 0 0);         /* White background */
+  --color-base-200: oklch(94% 0.01 250);     /* Light surface */
+  --color-base-300: oklch(87% 0.015 250);    /* Slightly darker surface */
+  --color-base-content: oklch(25% 0.02 260); /* Standard text */
+
+  --color-primary: oklch(62% 0.18 240);        /* Professional blue */
+  --color-primary-content: oklch(100% 0 0);    /* White text on primary */
+
+  --color-secondary: oklch(60% 0.1 170);       /* Muted teal/green secondary */
+  --color-secondary-content: oklch(100% 0 0);
+
+  --color-accent: oklch(66% 0.15 190);         /* Accent cyan/green */
+  --color-accent-content: oklch(100% 0 0);
+
+  --color-neutral: oklch(18% 0.015 260);       /* Neutral dark gray */
+  --color-neutral-content: oklch(98% 0.01 240);
+
+  --color-info: oklch(66% 0.2 230);            /* Info blue */
+  --color-info-content: oklch(100% 0 0);
+
+  --color-success: oklch(65% 0.2 145);         /* Positive green */
+  --color-success-content: oklch(100% 0 0);
+
+  --color-warning: oklch(85% 0.2 90);          /* Soft yellow/orange */
+  --color-warning-content: oklch(0% 0 0);
+
+  --color-error: oklch(68% 0.21 25);           /* Error red */
+  --color-error-content: oklch(100% 0 0);
+
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+
+
+@plugin "daisyui/theme" {
+  name: "CollabEdDark";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(12% 0.042 264.695);
+  --color-base-200: oklch(20% 0.042 265.755);
+  --color-base-300: oklch(27% 0.041 260.031);
+  --color-base-content: oklch(96% 0.007 247.896);
+   --color-primary: oklch(62% 0.18 240);        /* Professional blue */
+  --color-primary-content: oklch(100% 0 0);    /* White text on primary */
+
+  --color-secondary: oklch(60% 0.1 170);       /* Muted teal/green secondary */
+  --color-secondary-content: oklch(100% 0 0);
+  --color-accent: oklch(63% 0.237 25.331);
+  --color-accent-content: oklch(97% 0.013 17.38);
+  --color-neutral: oklch(44% 0.043 257.281);
+  --color-neutral-content: oklch(98% 0.003 247.858);
+  --color-info: oklch(60% 0.126 221.723);
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: oklch(62% 0.194 149.214);
+  --color-success-content: oklch(98% 0.018 155.826);
+  --color-warning: oklch(64% 0.222 41.116);
+  --color-warning-content: oklch(98% 0.016 73.684);
+  --color-error: oklch(58% 0.253 17.585);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 1;
+}
+
+
+@plugin "daisyui" {
+  themes: light , dark ;
+}
+
+
+/* .react-tabs__tab--selected {
+  @apply bg-primary text-primary-content shadow-md;
+}
+
+.react-tabs__tab {
+  @apply px-4 py-2 rounded-md transition-all duration-200 hover:bg-base-200;
+} */
+
+ [data-theme="CollabEdLight"] .customGradiant1 {
+ background: linear-gradient(
+  to bottom right,
+  #fffdfa,
+  #fef9f3,
+  #f8f1e8
+);
+ }
+
+ [data-theme="CollabEdLight"] .customGradiant2 {
+background:#FEFFED ;
+ }
+ 
+
+ [data-theme="CollabEdLight"] .customGradiant3 {
+background: linear-gradient(to bottom right, #e6f4f1, #dbece9, #f8fbfa);
+ }
+
+ /* --------------- dark theme -------  */
+
+ [data-theme="CollabEdDark"] .customGradiant1 {
+background: linear-gradient(
+  to bottom right,
+  #1c1f24,   /* deep charcoal */
+  #2a2e35,   /* dark slate gray */
+  #202428    /* soft near-black */
+);
+ }
+
+ [data-theme="CollabEdDark"] .customGradiant2 {
+background:#2D4356 ;
+ }
+
+
+
+ [data-theme="CollabEdDark"] .customGradiant3 {
+background: linear-gradient(
+  to bottom right,
+  #0d1217,
+  #1f2937,
+  #223344
+);
+ }
+
+ .boxCss{
+@apply  border-2 border-primary rounded-2xl shadow-primary hover:shadow-sm transition-shadow duration-500
+ }
+
+ .buttonCss{
+background: linear-gradient(135deg,#103156,#3886C2,#103156);
+ }
+
