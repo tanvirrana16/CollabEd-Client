@@ -1,4 +1,4 @@
-# 🌐 CollabEd — A Collaborative Learning Platform
+## 🌐 CollabEd — A Collaborative Learning Platform
 
 Welcome to **CollabEd**, a web-based platform designed to streamline learning through peer-to-peer sessions, admin oversight, and real-time material management. It supports student-tutor collaboration, session approvals, Stripe payments, and dynamic dashboards.
 
