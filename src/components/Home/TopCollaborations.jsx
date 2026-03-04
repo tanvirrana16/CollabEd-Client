@@ -8,7 +8,7 @@ const topSessions = [
   {
     _id: "1",
     title: "React Mastery Bootcamp",
-    tutorName: "Abu Syeed",
+    tutorName: "Tanvir Ahmed Rana",
     studentCount: 42,
     rating: 4.9,
     description:
@@ -19,7 +19,7 @@ const topSessions = [
   {
     _id: "2",
     title: "Python for Data Science",
-    tutorName: "Shahina Rahman",
+    tutorName: "Rezoan Nafi",
     studentCount: 36,
     rating: 4.8,
     description:
@@ -30,7 +30,7 @@ const topSessions = [
   {
     _id: "3",
     title: "UI/UX Design Crash Course",
-    tutorName: "Nahid Hasan",
+    tutorName: "Shariar Sourov",
     studentCount: 28,
     rating: 4.7,
     description:
